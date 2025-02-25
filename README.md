@@ -1,2 +1,2 @@
 # landing_page-TOP
-This is css project by The Odin Project.
+This is a CSS project named "Landing Page" by The Odin Project.
