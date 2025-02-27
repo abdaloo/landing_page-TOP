@@ -99,18 +99,118 @@ body{
 img{
     width: 50%;
     height: 60%;
+    object-fit: contain;
 }
 
-/* Information Sectino */
+/* Information Section */
 
 
+.box-container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 48px;
+    margin-bottom: 24px;
+}
 
+.image{
+    /* border: 2px solid #3882f6; */
+    width: 150px;
+    height: 150px;
+    border-radius: 8px;
+}
 
+.Information{
+    height: 350px;
+    padding: 24px;
+}
+.title{
+    text-align: center;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+    margin-bottom: 8px;
+}
 
-/* .footer{
+.info .text{
+    text-align: center;
+    color: #1f2937;
+}
+
+.image img{
+    width: 100%;
+    height: 100%;
+}
+
+/* Quote */
+.quote{
+    background-color: #e5e7eb;
+    padding: 60px;
+
+}
+.quote .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 36px;
+}
+
+.paragraph{
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    opacity: 0.8;
+}
+
+.name{
+    align-self: flex-end;
+    font-style: italic;
+    font-size: 24px;
+    color: #1f2937;
+    font-weight: bold;
+}
+
+/* Call */
+
+.call{
+    padding: 96px;
+    margin: 0 100px;
+}
+.call .container{
+    
+    background-color: #3882f6;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 6px;
+    padding: 32px;
+}
+
+.call .text{
+    color: #f9faf8;
+}
+
+h3{
+    text-align: left;
+}
+.call button{
+    color: #e5e7e8;
+    background-color: #3882f6;
+    border: none;
+    padding: 5px 24px ;
+    border-radius: 5px;
+    border: 2px solid #e5e7e8;
+}
+/* Footer */
+.footer{
+    color: #e5e7e8;
+    background-color: #1f2937;
+    padding: 32px;
+}
+
+.footer .container{
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #e5e7e8;
-    background-color: #1f2937;
-} */
+}
